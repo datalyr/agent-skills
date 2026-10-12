@@ -1,0 +1,8 @@
+{
+  "name": "datalyr",
+  "description": "DATALYR for agents: revenue-verified attribution plus creating, launching and managing Meta ads (paused first, spend within the workspace's limits).",
+  "version": "0.1.0",
+  "author": { "name": "DATALYR", "url": "https://www.datalyr.com" },
+  "homepage": "https://docs.datalyr.com/datalyr-mcp",
+  "license": "MIT"
+}

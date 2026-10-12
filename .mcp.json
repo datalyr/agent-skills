@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "datalyr": {
+      "type": "http",
+      "url": "https://api.datalyr.com/mcp"
+    }
+  }
+}

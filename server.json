@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.datalyr/mcp",
+  "description": "DATALYR: revenue-verified attribution and analytics, plus creating, launching and managing Meta ads (paused first, spend within the workspace's limits).",
+  "repository": {
+    "url": "https://github.com/datalyr/agent-skills",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://www.datalyr.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.datalyr.com/mcp"
+    }
+  ]
+}

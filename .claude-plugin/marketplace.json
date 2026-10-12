@@ -1,0 +1,11 @@
+{
+  "name": "datalyr",
+  "owner": { "name": "DATALYR", "url": "https://www.datalyr.com" },
+  "plugins": [
+    {
+      "name": "datalyr",
+      "source": "./",
+      "description": "DATALYR MCP server plus the datalyr-ads skill: make, launch and manage Meta ads from Claude Code."
+    }
+  ]
+}
