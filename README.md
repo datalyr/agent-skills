@@ -4,7 +4,7 @@ Skills and plugin files for agents that use DATALYR through MCP (`https://api.da
 
 | Skill | What it teaches |
 |---|---|
-| [`datalyr-ads`](skills/datalyr-ads/SKILL.md) | Create and launch Meta ads: files, paused campaigns / ad sets / ads, every-placement previews, turning on within spend limits, stopping |
+| [`datalyr-ads`](skills/datalyr-ads/SKILL.md) | Plan and propose Meta, TikTok and Google Ads ads onto one review page the person uploads from: files, paused campaigns / ad sets / ads, every-placement previews, turning on within spend limits, stopping |
 
 ## Install
 
