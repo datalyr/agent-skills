@@ -1,6 +1,6 @@
 ---
 name: datalyr-ads
-description: Plan and propose Meta, TikTok and Google Ads ads through DATALYR's MCP server (api.datalyr.com/mcp) — upload creative, propose paused campaigns, ad sets and ads onto one review page the person uploads from, then turn things on within the workspace's spend limits. Use when the user wants to make, launch, pause, edit, archive or delete ads, change budgets or campaigns, or asks what their ad accounts can take.
+description: Plan and propose Meta, TikTok and Google Ads through DATALYR's MCP server (api.datalyr.com/mcp) — upload creative, propose paused campaigns, ad sets and ads onto one review page the person uploads from, then propose turn-ons, which the owner uploads within the workspace's spend limits. Use when the user wants to make, launch, pause, edit, archive or delete ads, change budgets or campaigns, or asks what their ad accounts can take.
 ---
 
 # DATALYR ads
@@ -167,4 +167,4 @@ Same tools and the same review page; pass `platform: "tiktok"` or `"google"` in 
 - Don't tell the person something is live or uploaded until `get_review_session` says `done`.
 - Don't re-propose an `unknown` item: ask the person to check Ads Manager (label `datalyr-agent`) first.
 - Don't paste upload URLs for the person; they're single-use plumbing.
-- If something you need doesn't exist as a tool, say so and call `report_missing_capability`.
+- If something you need doesn't exist as a tool, say so. Call `report_missing_capability` only if the person asks you to tell DATALYR.

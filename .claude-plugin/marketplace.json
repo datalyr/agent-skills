@@ -5,7 +5,7 @@
     {
       "name": "datalyr",
       "source": "./",
-      "description": "DATALYR MCP server plus the datalyr-ads skill: plan and propose Meta, TikTok and Google Ads ads from Claude Code, for a person to review and upload."
+      "description": "DATALYR MCP server plus the datalyr-ads skill: plan and propose Meta, TikTok and Google Ads from Claude Code, for a person to review and upload."
     }
   ]
 }
