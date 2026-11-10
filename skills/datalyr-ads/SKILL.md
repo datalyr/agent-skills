@@ -7,7 +7,7 @@ description: Plan and propose Meta, TikTok and Google Ads through DATALYR's MCP 
 
 DATALYR connects to the user's own Meta, TikTok and Google Ads accounts (`list_ad_accounts` shows which ones agents can use).
 
-**You propose; the person uploads.** No tool creates or changes anything from chat. Every ad write runs DATALYR's checks, the platform's validation and the placement previews, and a ready proposal is added to the person's **review page** (`review_url`). An owner or admin opens it, looks everything over and presses **Upload**. DATALYR then creates it all **paused**, in order, paced per ad account. Turning things on, raising budgets and deleting wait for the workspace owner, inside the spend limits they set.
+**You propose; the person uploads.** No ad tool creates or changes anything in an ad account from chat; `stop_agent_ads` is the one exception, and it only stops spend. Every ad write runs DATALYR's checks, the platform's validation and the placement previews, and a ready proposal is added to the person's **review page** (`review_url`). An owner or admin opens it, looks everything over and presses **Upload**. DATALYR then creates it all **paused**, in order, paced per ad account. Turning things on, raising budgets and deleting wait for the workspace owner, inside the spend limits they set.
 
 ## Before anything
 
